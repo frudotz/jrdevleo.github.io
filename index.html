@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Metadata -->
+        <meta content="@WinneRose" property="og:title" />
+        <meta
+            content="Welcome to my website, I'm WinneRose."
+            property="og:description"
+        />
+        <meta content="WinneRose" property="og:site_name" />
+        <meta content="website" property="og:type" />
+        <meta content="en_US" property="og:locale" />
+        <meta content="https://github.com/WinneRose/winnerose.github.io/blob/main/static/images/favicon.png?raw=true" property="og:image" />
+
+        <meta name="title" content="WinneRose" />
+        <meta
+            name="description"
+            content="Welcome to my website, I'm WinneRose."
+        />
+        <meta
+            name="keywords"
+            content="website,WinneRose,github,web,personal,info,about"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        <meta name="author" content="https://github.com/WinneRose" />
+
+        <!-- Load Style -->
+        <link rel="stylesheet" href="./static/scss/style.css" />
+
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="./static/images/favicon.png"
+        />
+        <title>Leo4Bey</title>
+    </head>
+    <body>
+        <div class="line"></div>
+        <div id="navbar">
+            <h1>LEO4BEY</h1>
+            <span class="button-list">
+                <a href="#about">Hakkımda</a>
+                <a href="#technologies">Öğrendiğim diller</a>
+                <a href="#repos">Projelerim</a>
+            </span>
+        </div>
+        <div class="center">
+            <div class="flex-container">
+                <div class="about" id="about">
+                    <h1>
+                        Websiteme hoş geldiniz! Ben <span>LEO4BEY</span>,
+                    </h1>
+                    <p class="desc">
+                        18 yaşında bir lise öğrencisiyim yazılım ile uğraşıyorum ve fırsat buldukça yeni diller öğrenmeye çalışıyorum.<br>
+                        <a href="https://www.python.org/" target="_blank"
+                            >Python</a
+                        >
+                        <span> / </span>
+                        <a href="https://www.javascript.com/" target="_blank"
+                            >JavaScript</a
+                        >
+                        <span> / </span>
+                        <a href="https://www.lua.org/" target="_blank"
+                            >Lua</a
+                        >
+                    </p>
+                    <span class="social">
+                        <a href="https://github.com/jrdevleo" target="_blank">
+                            <img
+                                src="./static/images/github.svg"
+                                alt="github"
+                            />
+                        </a>
+                        <a
+                            href="https://discord.gg/Sxc8VSxhUh"
+                            target="_blank"
+                        >
+                            <img
+                                src="./static/images/discord.svg"
+                                alt="discord"
+                            />
+                        </a>
+                    </span>
+                </div>
+                <div class="profile" id="profile">
+                    
+                    <div class="status" id="status">
+                        <img
+                            src="./static/images/default.png"
+                            alt="avatar"
+                            id="avatar"
+                            class="avatar-pic"
+                            
+                        />
+
+            
+                    </div>
+                    <div id="details">
+                        <span id="username">abcdef</span>
+                        <span id="tag">#0000</span>
+                        <br>
+                        <font id="durum" color="white"></font> 
+                        <div class="spotifyarea">
+                            <img width="50px" height="50px" 
+                                src="./static/images/default.png"
+                                alt="avatar"
+                                id="spotify-pic"
+                                class="spotify-pic"
+                            />
+                            <font id="spotify-artist" color="white"></font>
+                            <font id="spotify-song" style="color:rgb(133, 133, 133)"></font>
+                        </div>
+                        <hr />
+                        <br>
+                        <font id="aktiflikyeri" color="white"></font><br>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <hr />
+            <h1 class="title">Kullandıklarım</h1>
+            <div id="technologies"></div>
+            <hr />
+            <h1 class="title">Github Repolarım</h1>
+            <div id="repos"></div>
+        </div>
+        <div class="alt-footer" style="float: bottom">
+            <a
+                href="https://github.com/JrDevLeo/jrdevleo.github.io"
+                target="_blank"
+                >Bu site github'da açık kaynaklıdır</a
+            >
+        </div>
+        <div class="line" style="float: bottom"></div>
+    </body>
+    <script src="./static/js/socket.js"></script>
+    <script src="./static/js/technologies.js"></script>
+    <script src="./static/js/github.js"></script>
+</html>
